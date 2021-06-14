@@ -1,0 +1,78 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    background-color: #000;
+    text-decoration: none;
+    color:white;
+}
+
+/* ---------------------------------navbar styling------------------------ */
+.navigate{
+	background-color: #000;
+}
+.navbar {
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	padding: 30px 0;
+	font-family: 'Ubuntu', sans-serif;
+	transition: all 0.3s ease;
+}
+.navbar.sticky {
+	padding: 15px 0;
+	background: #ff6b81;
+}
+.navbar .max-width {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar .logo a {
+	color: #fff;
+	font-size: 35px;
+	font-weight: 600;
+}
+.navbar .logo a span {
+	color: #ff6b81;
+	transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span {
+	color: #fff;
+}
+.navbar .menu li {
+	list-style: none;
+	display: inline-block;
+}
+.navbar .menu li a {
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 25px;
+	transition: color 0.3s ease;
+}
+.navbar .menu li a:hover {
+	color: #ff6b81;
+}
+.navbar.sticky .menu li a:hover {
+	color: #fff;
+}
+
+.main_box{
+    margin-top:130px;
+    /* border:1px solid white; */
+    height:100vh;
+    width:100%;
+}
+
+.box{
+    position:relative;
+    left:200px;
+    /* border: 1px solid red; */
+    margin-top:20px;
+    height:500px;
+    width:900px;
+    box-shadow: rgba(204, 199, 199, 0.2) 0px 20px 80px;
+   
+}
